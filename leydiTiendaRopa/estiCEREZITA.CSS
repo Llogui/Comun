@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: system-ui;
+	text-decoration: none;
+}
+
+background-image: url("Cereza.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+width: 100%;
+height: 100vh
+}
+header
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 6em;
+	background: #000000;
+
+}
+.logo
+{
+font-size: 3em;
+font-weight: 1000;
+}
+ul
+{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+gap:0em 2em ;
+}
+li a 
+{
+color: #000000;
+font-size: 1.3em;
+font-weight: 1000;
+}
+li a:hover
+{
+border-bottom: 0.3em solid #000000;
+transition: 0.5s;
+}
+main
+{
+position: relative;
+width: 100%;
+height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0em 4em;
+overflow:hidden; 
+}
+.description
+{
+	z-index: 1;
+	border-radius: 1em;
+	padding: 1em;
+	margin-right: 35em;
+    width: 30%;
+    border:0.2em solid #000000 ;
+    background: 000000;
+    height: 20em;
+}
+.description h2
+{
+	margin:1em auto 1em auto ;
+	color: #000000;
+}
+.button a 
+{
+	border: 0.1em solid #000000;
+	background: #000000;
+	padding: 0.2em 0.2em;
+	color: #000000;
+	border-radius: 0.5em;
+	font-size: 1.4em;
+	font-weight: 1000;
+	margin: 4em 0em 0em 6em;
+}
+.Cereza-animation img
+{
+	top: 8em;
+	width: 20em;
+	position: absolute;
+	animation: CerezaAnimation 12s linear infinite;
+
+}
